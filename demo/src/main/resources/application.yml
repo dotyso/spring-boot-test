@@ -1,0 +1,13 @@
+server:
+  port: 8011
+
+mybatis:
+  config-location: classpath:META-INF/mybatis-config.xml
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_ds
+    username: root
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver
+    type: org.apache.commons.dbcp.BasicDataSource
